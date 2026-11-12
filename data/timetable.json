@@ -1,0 +1,61 @@
+{
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "periods": [
+    "9:10–10:10 AM",
+    "10:10–11:10 AM",
+    "11:20–12:20 PM",
+    "12:20–1:10 PM",
+    "1:50–2:50 PM",
+    "2:50–3:50 PM"
+  ],
+  "grid": {
+    "Monday": {
+      "9:10–10:10 AM":  { "subject": "Design & Analysis of Algorithms", "room": "CB-304" },
+      "10:10–11:10 AM": { "subject": "Database Management Systems",     "room": "CB-304" },
+      "11:20–12:20 PM": { "subject": "Operating Systems",               "room": "CB-304" },
+      "12:20–1:10 PM":  null,
+      "1:50–2:50 PM":   { "subject": "Web Tech Lab",                    "room": "CSE Lab 3" },
+      "2:50–3:50 PM":   { "subject": "Web Tech Lab",                    "room": "CSE Lab 3" }
+    },
+    "Tuesday": {
+      "9:10–10:10 AM":  { "subject": "Web Technologies",                "room": "CB-304" },
+      "10:10–11:10 AM": { "subject": "Operating Systems",               "room": "CB-304" },
+      "11:20–12:20 PM": { "subject": "DAA",                             "room": "CB-304" },
+      "12:20–1:10 PM":  null,
+      "1:50–2:50 PM":   { "subject": "DBMS Lab",                        "room": "CSE Lab 1" },
+      "2:50–3:50 PM":   { "subject": "DBMS Lab",                        "room": "CSE Lab 1" }
+    },
+    "Wednesday": {
+      "9:10–10:10 AM":  { "subject": "Operating Systems",               "room": "CB-304" },
+      "10:10–11:10 AM": { "subject": "DBMS",                            "room": "CB-304" },
+      "11:20–12:20 PM": { "subject": "Web Technologies",                "room": "CB-304" },
+      "12:20–1:10 PM":  null,
+      "1:50–2:50 PM":   { "subject": "Library / Self-Study",            "room": "Central Library" },
+      "2:50–3:50 PM":   { "subject": "Mentor Interaction",              "room": "Staff Room 2" }
+    },
+    "Thursday": {
+      "9:10–10:10 AM":  { "subject": "DAA",                             "room": "CB-304" },
+      "10:10–11:10 AM": { "subject": "DBMS",                            "room": "CB-304" },
+      "11:20–12:20 PM": { "subject": "Operating Systems",               "room": "CB-304" },
+      "12:20–1:10 PM":  null,
+      "1:50–2:50 PM":   { "subject": "OS Lab",                          "room": "CSE Lab 2" },
+      "2:50–3:50 PM":   { "subject": "OS Lab",                          "room": "CSE Lab 2" }
+    },
+    "Friday": {
+      "9:10–10:10 AM":  { "subject": "Web Technologies",                "room": "CB-304" },
+      "10:10–11:10 AM": { "subject": "DAA",                             "room": "CB-304" },
+      "11:20–12:20 PM": { "subject": "Technical Seminar",               "room": "Seminar Hall 1" },
+      "12:20–1:10 PM":  null,
+      "1:50–2:50 PM":   { "subject": "Sports / Games",                  "room": "Sports Complex" },
+      "2:50–3:50 PM":   { "subject": "Sports / Games",                  "room": "Sports Complex" }
+    },
+    "Saturday": {
+      "9:10–10:10 AM":  { "subject": "Operating Systems",               "room": "CB-304" },
+      "10:10–11:10 AM": { "subject": "Web Technologies",                "room": "CB-304" },
+      "11:20–12:20 PM": { "subject": "Project Work Phase-I",            "room": "Project Lab" },
+      "12:20–1:10 PM":  null,
+      "1:50–2:50 PM":   null,
+      "2:50–3:50 PM":   null
+    }
+  }
+}

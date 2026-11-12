@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Building Synapse & Preparing for SIH 2026 at CVR Campus",
+      "author": "Vishnu Teja",
+      "date": "2026-11-09",
+      "category": "Academic",
+      "views": 1540,
+      "tags": [
+        "Projects",
+        "SIH2026",
+        "CSE"
+      ],
+      "excerpt": "How our team kicked off our Smart India Hackathon project right here in CVR's CSE Lab 3.",
+      "full": "<p>When the Smart India Hackathon internal round was announced at CVR College of Engineering, my team and I knew we wanted to build something practical. We spent evenings in CSE Lab 3 brainstorming solutions for campus resource management.</p><p>Using vanilla JavaScript, asynchronous requests, and a clean interface made our prototype fast and modular.</p>"
+    },
+    {
+      "id": 2,
+      "title": "Behind the Scenes of CIENCIA: Organizing Web-A-Thon 2026",
+      "author": "Vishnu Teja",
+      "date": "2026-10-30",
+      "category": "Event",
+      "views": 1820,
+      "tags": [
+        "CIENCIA",
+        "TechFest",
+        "WebDev"
+      ],
+      "excerpt": "A quick look into how our student team organizes CVR's annual technical fest Web-A-Thon.",
+      "full": "<p>CIENCIA is when CVR College of Engineering buzzes with the highest energy. Teams arrive at our Ibrahimpatnam campus for robotics, paper presentations, and coding marathons.</p><p>For Web-A-Thon, we built an interactive portal where participants could view updates seamlessly without page reloads.</p>"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "code": "22CS301PC",
+      "name": "Design & Analysis of Algorithms",
+      "instructor": "Dr. K. Venkatesh Sharma",
+      "department": "CSE",
+      "credits": 4,
+      "description": "Asymptotic analysis, divide & conquer, greedy methods, dynamic programming, and graph algorithms."
+    },
+    {
+      "code": "22CS304PC",
+      "name": "Web Technologies",
+      "instructor": "Prof. P. Sunitha Devi",
+      "department": "CSE",
+      "credits": 3,
+      "description": "HTML5, CSS3, JavaScript, AJAX & Fetch API, DOM manipulation, and building responsive web apps."
+    },
+    {
+      "code": "22EC301PC",
+      "name": "Microprocessors & Microcontrollers",
+      "instructor": "Dr. G. Ravi Kumar",
+      "department": "ECE",
+      "credits": 4,
+      "description": "8086 architecture, assembly programming, 8051 microcontroller, and hardware interfacing."
+    }
+  ]
+}

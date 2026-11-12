@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CVR College of Engineering — Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand" onclick="if(currentUser) show('dashboard'); else show('login');">🏛 CVR College of Engineering</div>
+    <div class="nav-links" id="nav-links">
+      <a href="#" onclick="show('login'); return false;">Login</a>
+      <a href="#" onclick="show('register'); return false;">Register</a>
+    </div>
+    <div class="nav-user" id="nav-user" style="display:none">
+      <a href="#" onclick="show('dashboard'); return false;">Dashboard</a>
+      <a href="#" onclick="show('announcements'); return false;">Notices</a>
+      <a href="#" onclick="show('courses'); return false;">Courses</a>
+      <a href="#" onclick="show('timetable'); return false;">Timetable</a>
+      <a href="#" onclick="show('blog'); return false;">Blog</a>
+      <button type="button" id="edit-mode-btn" class="edit-toggle-btn" onclick="toggleEditMode()">✏️ Edit Mode: OFF</button>
+      <span id="username-display" onclick="show('dashboard')" title="View Profile"></span>
+      <a href="#" onclick="logout(); return false;">Logout</a>
+    </div>
+  </nav>
+
+  <div class="container" id="app"></div>
+  <div id="modal-root"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

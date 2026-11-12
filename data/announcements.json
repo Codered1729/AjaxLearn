@@ -1,0 +1,22 @@
+{
+  "announcements": [
+    {
+      "id": 1,
+      "title": "B.Tech III Year I Sem Mid-II Examinations Timetable Released",
+      "date": "2026-11-10",
+      "author": "Examination Branch, CVRCE",
+      "category": "Exam",
+      "important": true,
+      "body": "Mid-II examinations for B.Tech III Year I Semester will commence from November 24, 2026. Hall tickets can be downloaded starting Nov 18."
+    },
+    {
+      "id": 2,
+      "title": "CIENCIA 2026 — Annual Technical Symposium",
+      "date": "2026-11-08",
+      "author": "Student Affairs, CVRCE",
+      "category": "Event",
+      "important": false,
+      "body": "CVR College of Engineering presents CIENCIA 2026 featuring Project Expo, Web-A-Thon, and Code Wars. Registrations are open at C-Block foyer."
+    }
+  ]
+}
